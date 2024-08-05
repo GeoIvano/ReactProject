@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #319795;
+    align-items: center;
+}
+
+.nav-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.logged-as {
+    margin-right: 10px;
+}
+
+.navigation-link {
+    color: #A2FF86;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+
+.navigation-link:hover {
+    color: #ED8936;
+}
+
+.user-settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navigation-link-active {
+    color: #ED8936;
+  }
+
